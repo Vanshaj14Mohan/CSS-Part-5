@@ -5,8 +5,10 @@
     margin:10px auto;
     border:2px solid black;
     display:flex; /*by default set to row  */
-    /* flex-direction: row; no effect */
-    /* flex-direction: column; will set div in columns wise */
+     /* flex-direction: row;  main axis-> left to right  */
+    /* flex-direction: column; main axis->top to bottom will set div in columns wise */
+    /* flex-direction: row-reverse; main axis-> right to left */
+    /* flex-direction: column-reverse; main axis-> bottom to top */
 } 
 
 #violet{
