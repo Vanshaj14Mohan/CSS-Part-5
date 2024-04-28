@@ -18,6 +18,8 @@
     justify-content: space-between; extra space will go in between the divs */
     /* flex-direction:row;
     justify-content: space-around; sends half space size to left and right side of divs too */
+    flex-direction:row;
+    justify-content: space-evenly;
     /* flex-direction:row; same for column operations too
     justify-content: space-evenly; middle and corner spaces will be of equal size */
      /* flex-direction: row;  main axis-> left to right  */
