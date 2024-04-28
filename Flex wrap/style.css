@@ -1,0 +1,67 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color: white;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex; /*by default set to row  */
+    flex-direction:row;
+    justify-content: flex-start;
+    /*flex-wrap: nowrap;  no change, coz by default flex wrap is nowrap*/
+    flex-wrap: wrap; /*fits divs in one line acc to available space and then shifts to next line*/
+    /*flex-wrap: wrap-reverse; wrapped in reverse direction acc to cross axis*/
+} 
+
+#violet{
+    background-color: violet;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#indigo{
+    background-color: indigo;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#blue{
+    background-color: blue;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#green{
+    background-color: green;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#yellow{
+    background-color: yellow;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#orange{
+    background-color: orange;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+#red{
+    background-color: red;
+    height:100px;
+    width:300px;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
