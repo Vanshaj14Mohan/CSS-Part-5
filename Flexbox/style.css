@@ -5,6 +5,21 @@
     margin:10px auto;
     border:2px solid black;
     display:flex; /*by default set to row  */
+    /* justify content */
+    /* flex-direction:row; or column 
+    justify-content:flex-start; */
+    /* flex-direction:row-reverse; or column-reverse
+    justify-content:flex-end; or flex start */
+    /* flex-direction:row-reverse;
+    justify-content:flex-end; or flex-start */
+    /* flex-direction:row; or column or reverse case
+    justify-content:center; */
+    /* flex-direction:row;
+    justify-content: space-between; extra space will go in between the divs */
+    /* flex-direction:row;
+    justify-content: space-around; sends half space size to left and right side of divs too */
+    /* flex-direction:row; same for column operations too
+    justify-content: space-evenly; middle and corner spaces will be of equal size */
      /* flex-direction: row;  main axis-> left to right  */
     /* flex-direction: column; main axis->top to bottom will set div in columns wise */
     /* flex-direction: row-reverse; main axis-> right to left */
@@ -14,49 +29,49 @@
 #violet{
     background-color: violet;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #indigo{
     background-color: indigo;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #blue{
     background-color: blue;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #green{
     background-color: green;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #yellow{
     background-color: yellow;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #orange{
     background-color: orange;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
 #red{
     background-color: red;
     height:100px;
-    width:300px;
+    width:100px;
     text-align: center;
 }
 
