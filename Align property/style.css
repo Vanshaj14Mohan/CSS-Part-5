@@ -1,5 +1,5 @@
 #container{
-    height:300px;
+    height:400px;
     width:80%;
     background-color: white;
     margin:10px auto;
@@ -7,8 +7,11 @@
     display:flex; 
     flex-direction:row;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items:flex-end;
+    /* flex-wrap: wrap; */
+    /* Align items-> Distributes the items along the cross axis */
+    /* align-items:center; */
+    /* align-items:flex-end; same for start too*/ 
+    align-items:baseline; /*content will come on a same baseline, divs will be arranged acc to text*/
 }
 
 #violet{
@@ -27,7 +30,7 @@
 
 #blue{
     background-color: blue;
-    height:60px;
+    height:40px;
     width:300px;
     text-align: center;
 }
@@ -48,9 +51,10 @@
 
 #orange{
     background-color: orange;
-    height:60px;
+    height:200px;
     width:300px;
     text-align: center;
+    font-size:2.5em;
 }
 
 #red{
