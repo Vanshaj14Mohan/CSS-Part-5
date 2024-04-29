@@ -4,13 +4,11 @@
     background-color: white;
     margin:10px auto;
     border:2px solid black;
-    display:flex; /*by default set to row  */
+    display:flex; 
     flex-direction:row;
     justify-content: flex-start;
-    /*flex-wrap: nowrap;  no change, coz by default flex wrap is nowrap*/
-    flex-wrap: wrap; /*fits divs in one line acc to available space and then shifts to next line*/
-    /*flex-wrap: wrap-reverse; wrapped in reverse direction acc to cross axis*/
-} 
+    flex-wrap: wrap;
+}
 
 #violet{
     background-color: violet;
@@ -65,3 +63,6 @@
 h1{
     text-align: center;
 }
+
+
+
