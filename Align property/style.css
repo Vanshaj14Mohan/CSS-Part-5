@@ -8,53 +8,54 @@
     flex-direction:row;
     justify-content: flex-start;
     flex-wrap: wrap;
+    align-items:flex-end;
 }
 
 #violet{
     background-color: violet;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #indigo{
     background-color: indigo;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #blue{
     background-color: blue;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #green{
     background-color: green;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #yellow{
     background-color: yellow;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #orange{
     background-color: orange;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
 
 #red{
     background-color: red;
-    height:100px;
+    height:60px;
     width:300px;
     text-align: center;
 }
