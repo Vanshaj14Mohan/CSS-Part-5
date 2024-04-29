@@ -8,15 +8,9 @@
     flex-direction:row;
     /* flex-direction:column; */
     justify-content: flex-start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* align content-> Distributes space between and around content items along a flexbox's cross axis */
     align-content:flex-start;
-    /* align-content:flex-end; */
-    /* align-content:center; */
-    /* align-content:space-between;
-    align-content:space-around;
-    align-content:space-evenly;
-    align-content:baseline; */
 }
 
 #violet{
@@ -35,9 +29,12 @@
 
 #blue{
     background-color: blue;
-    height:40px;
+    height:60px;
     width:300px;
     text-align: center;
+    /* align self-> aligns an item along the cross axis */
+    /* align-self: flex-end; or start or baseline */
+    align-self: center;
 }
 
 #green{
