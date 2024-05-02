@@ -1,0 +1,86 @@
+#container{
+    height:400px;
+    width:80%;
+    background-color: white;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex; 
+    flex-direction:row;
+    /* flex-direction:column; */
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* align content-> Distributes space between and around content items along a flexbox's cross axis */
+    align-content:flex-start;
+}
+
+#violet{
+    background-color: violet;
+    height:60px;
+    width:300px;
+    text-align: center;
+}
+
+#indigo{
+    background-color: indigo;
+    height:60px;
+    width:300px;
+    text-align: center;
+}
+
+#blue{
+    background-color: blue;
+    height:60px;
+    width:300px;
+    text-align: center;
+    /* align self-> aligns an item along the cross axis */
+    /* align-self: flex-end; or start or baseline */
+    /* align-self: center; */
+    /*flex-basis: 100px; *if direction is column then it will apply on height or else if row then width */
+    /* flex-grow: 1;
+    min-width: 400px;
+    max-width: 560; */
+    flex: 2 2 100px; /*flex grow/ flex shrink/ flex basis*/
+    /* flex: 2 100px; flex grow/flex basis
+    flex:2; flex grow(unitless)
+    flex: 100px;  flex basis*/ 
+}
+
+#green{
+    background-color: green;
+    height:60px;
+    width:300px;
+    text-align: center;
+}
+
+#yellow{
+    background-color: yellow;
+    height:60px;
+    width:300px;
+    text-align: center;
+    flex-shrink:2;
+}
+
+#orange{
+    background-color: orange;
+    height:60px;
+    width:300px;
+    text-align: center;
+    font-size:2.5em;
+    /* flex-grow: 1; */
+}
+
+#red{
+    background-color: red;
+    height:60px;
+    width:300px;
+    text-align: center;
+    /* flex-basis: 400px; */
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+
